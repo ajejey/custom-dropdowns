@@ -3,13 +3,13 @@ import styles from './MultiSelection.module.css';
 import { optionsData } from '../../../utils/data';
 
 
-const MultiSelectDropdown = () => {
+const MultiSelectDropdown = ({ options }) => {
     const [selectedOptions, setSelectedOptions] = useState([]);
     const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef(null);
     const dropdownOptionsRef = useRef(null);
 
-    const options = optionsData
+    // const options = optionsData
 
     const handleOptionToggle = () => {
         setIsOpen(!isOpen);

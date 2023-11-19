@@ -3,35 +3,35 @@ import styles from './SingleSelection.module.css'
 import { optionsData } from '../../../utils/data';
 
 
-const SingleSelection = () => {
-    const options = optionsData;
-    const[selection, setSelection] = useState('Maharashtra');
+const SingleSelection = ({ options }) => {
+    // const options = optionsData;
+    const [selection, setSelection] = useState('Maharashtra');
     const handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.target);
         console.log(data.get('IndianStates'));
         setSelection(data.get('IndianStates'));
     }
-  return (
-    <div>
-       
-        
-        <form onSubmit={handleSubmit} className={styles.form}>
-            <label htmlFor="IndianStates" className={styles.label}>
-                <div className={styles.title}>Indian States</div>
-                <select name="IndianStates" id="IndianStates" className={styles.select}>
-                    {options.map((option) => (
-                        <option key={option.value} value={option.value}>
-                            {option.label}
-                        </option>
-                    ))}
-                </select>
-            </label>
-            <input type="submit" value="Submit" className={styles.submit} />
-            <div className={styles.selection}>Selection: <b>{selection}</b> </div>
-        </form>
-    </div>
-  )
+    return (
+        <div>
+
+
+            <form onSubmit={handleSubmit} className={styles.form}>
+                <label htmlFor="IndianStates" className={styles.label}>
+                    <div className={styles.title}>Indian States</div>
+                    <select name="IndianStates" id="IndianStates" className={styles.select}>
+                        {options.map((option) => (
+                            <option key={option.value} value={option.value}>
+                                {option.label}
+                            </option>
+                        ))}
+                    </select>
+                </label>
+                <input type="submit" value="Submit" className={styles.submit} />
+                <div className={styles.selection}>Selection: <b>{selection}</b> </div>
+            </form>
+        </div>
+    )
 }
 
 export default SingleSelection

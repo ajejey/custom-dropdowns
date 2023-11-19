@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import styles from './SearchAndSortSelection.module.css'
 import { optionsData } from '../../../utils/data';
 
-const SearchAndSortSelection = () => {
+const SearchAndSortSelection = ({ options }) => {
     const [selectedOptions, setSelectedOptions] = useState([]);
     const [isOpen, setIsOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
@@ -10,7 +10,7 @@ const SearchAndSortSelection = () => {
     const dropdownRef = useRef(null);
     const dropdownOptionsRef = useRef(null);
 
-    const options = optionsData;
+    // const options = optionsData;
 
     const handleOptionToggle = (event) => {
         event.stopPropagation();

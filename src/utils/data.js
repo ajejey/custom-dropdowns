@@ -16,3 +16,22 @@ export const optionsData = [
     { value: 'Uttar Pradesh', label: 'Uttar Pradesh' },
     { value: 'Himachal Pradesh', label: 'Himachal Pradesh' },
 ]
+
+export const optionsWithGroupsData = [
+    { value: 'Maharashtra', label: 'Maharashtra', region: 'central' },
+    { value: 'Karnataka', label: 'Karnataka', region: 'south' },
+    { value: 'TamilNadu', label: 'TamilNadu', region: 'south' },
+    { value: 'Kerala', label: 'Kerala', region: 'south' },
+    { value: 'Andhra Pradesh', label: 'Andhra Pradesh', region: 'south' },
+    { value: 'West Bengal', label: 'West Bengal', region: 'east' },
+    { value: 'Chhattisgarh', label: 'Chhattisgarh', region: 'central' },
+    { value: 'Madhya Pradesh', label: 'Madhya Pradesh', region: 'central' },
+    { value: 'Jharkhand', label: 'Jharkhand', region: 'north' },
+    { value: 'Rajasthan', label: 'Rajasthan', region: 'west' },
+    { value: 'Gujarat', label: 'Gujarat', region: 'west' },
+    { value: 'Delhi', label: 'Delhi', region: 'north' },
+    { value: 'Haryana', label: 'Haryana', region: 'north' },
+    { value: 'Punjab', label: 'Punjab', region: 'north' },
+    { value: 'Uttar Pradesh', label: 'Uttar Pradesh', region: 'north' },
+    { value: 'Himachal Pradesh', label: 'Himachal Pradesh', region: 'north' }
+];

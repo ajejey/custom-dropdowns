@@ -1,0 +1,18 @@
+export const optionsData = [
+    { value: 'Maharashtra', label: 'Maharashtra' },
+    { value: 'Karnataka', label: 'Karnataka' },
+    { value: 'TamilNadu', label: 'TamilNadu' },
+    { value: 'Kerala', label: 'Kerala' },
+    { value: 'Andhra Pradesh', label: 'Andhra Pradesh' },
+    { value: 'West Bengal', label: 'West Bengal' },
+    { value: 'Chhattisgarh', label: 'Chhattisgarh' },
+    { value: 'Madhya Pradesh', label: 'Madhya Pradesh' },
+    { value: 'Jharkhand', label: 'Jharkhand' },
+    { value: 'Rajasthan', label: 'Rajasthan' },
+    { value: 'Gujarat', label: 'Gujarat' },
+    { value: 'Delhi', label: 'Delhi' },
+    { value: 'Haryana', label: 'Haryana' },
+    { value: 'Punjab', label: 'Punjab' },
+    { value: 'Uttar Pradesh', label: 'Uttar Pradesh' },
+    { value: 'Himachal Pradesh', label: 'Himachal Pradesh' },
+]

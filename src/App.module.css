@@ -1,0 +1,53 @@
+.container{
+    margin: 0 8px;
+}
+.tabContainer {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .tabButton {
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    /* border-radius: 4px; */
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .tabButton.active {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 300px;
+    margin: 8px auto;
+  }
+  
+  .formLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .labelText {
+    margin-bottom: 4px;
+  }
+  
+  .formInput {
+    padding: 4px;
+  }
+  
+  .submitButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    /* width: 200px; */
+    cursor: pointer;
+    background: #fff;
+}
+
+.selectedOption {
+    padding: 2px 4px;
+    background-color: lightgray;
+    margin-right: 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.removeOption{
+    cursor: pointer;
+    margin-left: 4px;
+    border-radius: 4px;
+    padding: 0 2px;  
+    display: inline-block;
+    background-color: rgb(179, 179, 179);
+}
+
+
+.dropdownOptions {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    background: #fff;
+}

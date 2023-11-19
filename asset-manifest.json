@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/custom-dropdowns/static/css/main.0e868e3e.css",
+    "main.js": "/custom-dropdowns/static/js/main.88b9e6e5.js",
+    "static/js/787.d77d82c5.chunk.js": "/custom-dropdowns/static/js/787.d77d82c5.chunk.js",
+    "index.html": "/custom-dropdowns/index.html",
+    "main.0e868e3e.css.map": "/custom-dropdowns/static/css/main.0e868e3e.css.map",
+    "main.88b9e6e5.js.map": "/custom-dropdowns/static/js/main.88b9e6e5.js.map",
+    "787.d77d82c5.chunk.js.map": "/custom-dropdowns/static/js/787.d77d82c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e868e3e.css",
+    "static/js/main.88b9e6e5.js"
+  ]
+}

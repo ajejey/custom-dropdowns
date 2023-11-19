@@ -57,6 +57,11 @@ const FullyCustomizableDropdown = ({ options, singleSelect, search, sortable }) 
             window.removeEventListener('click', handleOutsideClick);
         };
     }, []);
+    useEffect(()=>{
+        setSelectedOptions([])
+        setSearchQuery('')
+        setSortOrder('asc')
+    },[options, singleSelect, search, sortable])
 
     return (
         <div className={styles.container}>

@@ -1,11 +1,12 @@
 # This app contains on-view event listners and custom dropdowns
 
 * Dynamic Grid component with on view event listners
-* Custom Dropdowns components that are built HTML elements and CSS (No libraries)
+* Fully Customizable Dropdown that is built with HTML elements and CSS (No libraries)
     * Single Selection
     * Multi Selection
     * Grouping Values
-    * Search And SortSelection
+    * Search 
+    * SortSelection
 
 
 ## How to clone and run project
